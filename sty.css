@@ -1,0 +1,556 @@
+Google Classroom
+Classroom
+December - 2022
+Home
+Calendar
+Teaching
+To review
+P
+Personal
+I
+Interview
+Enrolled
+To do
+A
+Angular - Dec 2022
+P
+Python - Nov, Dec 2022
+D
+December - 2022
+I
+III YR
+A
+Archived classes
+Settings
+Stream
+Classwork
+People
+Classwork for December - 2022
+All topics
+Material
+Portfolio Files
+Posted 17 Apr
+
+index.html
+HTML
+
+KN_logo_Icon K.png
+Image
+
+sty.css
+Style Sheet
+Material
+SoftSkills Notes
+Posted 6 Jan
+Material
+Books
+Posted 23 Dec 2022
+Aptitude
+Aptitude
+Material
+Aptitude practice session 16th june
+Posted 16 Jun
+Class test
+Class test
+Assignment
+Surprise test (24/03/2023)
+Due 24 Mar, 11:15
+SQL
+SQL
+Material
+MySQL Installation video
+Posted 7 Apr
+Material
+Oracle software and installation video
+Posted 21 Feb
+Java programming
+Java programming
+Assignment
+programming practice
+No due date
+Material
+Manual Testing
+Posted 15 Feb
+Assignment
+programs for 14/02/2023
+No due date
+Material
+programs for 13/02/2023
+Posted 13 Feb
+Weekly Assessment Solutions
+Weekly Assessment Solutions
+Material
+Weekly Assessment Solutions
+Posted 7 Feb
+Material
+Weekly Assessment Solutions
+Posted 31 Jan
+Material
+Weekly Assessment Solutions
+Posted 16 Jan
+Material
+Weekly Assessment Solutions
+Posted 10 Jan
+JAVA EXTRA VIDEOS
+JAVA EXTRA VIDEOS
+Completed Assignment
+Data Structures
+Due 28 Feb, 23:59
+Completed Assignment
+Swings Using Windows Builder
+Due 18 Feb, 23:59
+Completed Assignment
+Java Docs
+Due 6 Feb, 23:59
+Completed Assignment
+Debug Mode in Eclipse
+Due 6 Feb, 23:59
+Completed Assignment
+SEARCHING AND SORTING ALGORITHMS
+Due 13 Jan, 23:59
+Aptitude Classwork
+Aptitude Classwork
+Material
+Aptitude Classwork 24-02-2023
+Posted 27 Feb
+Material
+Aptitude Classwork 23-02-2023
+Posted 23 Feb
+Material
+Aptitude Classwork 22-02-2023
+Posted 22 Feb
+Material
+Aptitude Classwork 21-02-2023
+Posted 21 Feb
+Material
+Aptitude Classwork 20-02-2023
+Posted 20 Feb
+Material
+Aptitude Classwork 16-02-2023
+Posted 20 Feb
+Material
+Aptitude Classwork 15-02-2023
+Posted 15 Feb
+Material
+Aptitude Classwork 14-02-2023
+Posted 14 Feb
+Material
+Aptitude Classwork 13-02-2023
+Posted 14 Feb
+Material
+Aptitude Classwork 10-02-2023
+Posted 10 Feb
+*{
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color: #111;
+    overflow: hidden;
+    padding-left: 35rem;
+}
+
+.heading{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color: yellow;
+}
+
+.title{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 6rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+
+.title span{
+    color: yellow;
+}
+
+.head{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.head span{
+    color: yellow;
+}
+.pro{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding-top: 5rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+.pro span{
+    color: yellow;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    height: 100%;
+    width: 35rem;
+    background:#1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    text-align: center;
+}
+
+header .user img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+    border: .5rem solid;
+}
+
+header .user .nm{
+    font-size:2rem;
+    color: #fff;
+}
+
+header .user .jb{
+    font-size:1rem;
+    color: #fff;
+}
+
+header .nv{
+    width: 100%;
+}
+header .nv ul{
+    list-style: none;
+    padding: 1rem ;
+}
+
+header .nv ul li a{
+    display: block;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    background: #333;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 5rem;
+    text-decoration: none;  
+}
+header .nv ul li a:hover{
+    background-color:yellowgreen;
+}
+
+.Summary{
+    display: inline;
+    color: #fff;
+}
+.Details .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Details .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Details .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Details .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+table,th,td{
+    border: 1px solid yellow;
+    border-collapse: collapse;
+}
+td{
+    color: white;
+    padding: 1rem;
+}
+th{
+    color: white;
+    padding: 1rem;
+}
+table{
+    text-align: center;
+    margin: 0 6rem;
+    font-size: 2rem;
+    padding: 1rem;
+    border-bottom: .1rem solid #fff4;
+    color: #fff;
+}
+#lis li{
+    margin: 0 9rem;
+    color: white;
+    font-size: medium;
+    padding: .5rem 1rem;
+}
+.Publications{
+    display: inline;
+    color: #fff;
+}
+
+.Publications .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Publications .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Publications .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Publications .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Project .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+
+.Project .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Project .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Project .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Internships{
+    display: inline;
+    color: #fff;
+}
+
+.Internships .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Internships .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Internships .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Internships .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Professional_Training{
+    display: inline;
+    color: #fff;
+}
+
+.Professional_Training .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Professional_Training .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Professional_Training .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Professional_Training .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Certifications{
+    display: inline;
+    color: #fff;
+}
+
+.Certifications .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Certifications .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Certifications .Row .det h3{
+    font-size: 2rem;
+    color: yellow;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Certifications .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Soft_Skills{
+    display: inline;
+    color: #fff;
+}
+
+.Soft_Skills .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Soft_Skills .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Soft_Skills .Row .det h3{
+    font-size: 2rem;
+    color:#fff;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Soft_Skills .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Interests{
+    display: inline;
+    color: #fff;
+}
+
+.Interests .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Interests .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Interests .Row .det h3{
+    font-size: 2rem;
+    color:#fff;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Interests .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+.Languages{
+    display: inline;
+    color: #fff;
+}
+
+.Languages .Row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+}
+.Languages .Row .det{
+    flex: 1 1 48rem;
+    padding: 2rem 1rem;
+    padding-left: 8rem;
+}
+
+.Languages .Row .det h3{
+    font-size: 2rem;
+    color:#fff;
+    padding: 1rem 0;
+    font-weight: normal;
+}
+
+.Languages .Row .det h3 span{
+    color: #eee;
+    padding: 0. 5rem;
+}
+
+sty.css
+Displaying sty.css.
